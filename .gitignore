@@ -1,1 +1,2 @@
 .env
+diary/management/commands/backup_diary.py
