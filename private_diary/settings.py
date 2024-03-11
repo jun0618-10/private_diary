@@ -23,12 +23,12 @@ LOGGING={
     'logger':{
 
         'django':{
-            'handlers':['console'],
+            'handlers':['file'],
             'level':'INFO',
         },
 
         'diary':{
-            'handlers':['console'],
+            'handlers':['file'],
             'level':'INFO',
         },
     },
@@ -44,8 +44,8 @@ LOGGING={
         },
     },
 
-    'prod':{
-        'dev':{
+    'formatters':{
+        'prod':{
             'format':'\t'.join([
                 '%(asctime)s',
                 '[%(levelname)s]',
