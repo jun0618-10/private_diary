@@ -8,8 +8,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-STATIC_ROOT = '/usr/share/nginx/html/static'
-MEDIA_ROOT = '/usr/share/nginx/html/media'
+
 
 LOGGING={
     'version':1,
