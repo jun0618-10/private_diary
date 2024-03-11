@@ -6,9 +6,9 @@ DEBUG = False
 
 ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS')]
 
-STATIC_ROOT = '/user/share/nginx/html/static'
+STATIC_ROOT = '/usr/share/nginx/html/static'
 
-MEDIA_ROOT = '/user/share/nginx/html/media'
+MEDIA_ROOT = '/usr/share/nginx/html/media'
 
 AWS_SES_ACCESS_KEY_ID = os.environ.get('AWS_SES_ACCESS_KEY_ID')
 
